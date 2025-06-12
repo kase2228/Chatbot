@@ -1,0 +1,13 @@
+fine_tuned_model/*
+!fine_tuned_model/config.json
+!fine_tuned_model/tokenizer_config.json
+!fine_tuned_model/tokenizer.json
+!fine_tuned_model/vocab.json
+!fine_tuned_model/merges.txt
+!fine_tuned_model/generation_config.json
+!fine_tuned_model/special_tokens_map.json
+!fine_tuned_model/chat_template.jinja
+
+# Ignore large weight files
+fine_tuned_model/*.bin
+fine_tuned_model/*.safetensors
